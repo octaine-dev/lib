@@ -3,8 +3,8 @@ package lib
 import "fmt" // This will be referenced from the dynamically linked libstd
 
 type Bet struct {
-	amount int
-	value string
+	Amount int
+	Value string
 }
 
 type PlayRequest struct {
